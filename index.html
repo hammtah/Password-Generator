@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img id="night" src="moon-icon.svg" alt="moon-line-icon.svg">
+        <img id="light" src="sun-color-icon.svg" alt="sun-icon.svg">
+
+
+
+
+        <h2><span class="first-span">Generate a</span><br> <span class="second-span">random password</span></h2>
+        <h3>Never use an insecure password again.</h3>
+        <button>Generate passwords</button>
+        <hr>
+        <section class="pass-section">
+            <p class="password" onclick=" clipboard(0)"><br></p>
+            <p class="password" onclick=" clipboard(1)"></p>
+
+        </section>
+        <section class="tooltip">
+            <span id="span1">copied</span>
+            <span id="span2">copied</span>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

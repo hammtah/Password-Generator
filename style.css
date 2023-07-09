@@ -1,0 +1,158 @@
+    body {
+        margin: 20px 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* styling the default container (the night mode) */
+    
+    .container {
+        margin: 0 auto;
+        width: 550px;
+        padding: 115px 52px;
+        background-color: #1F2937;
+        box-shadow: 0 17px 50px 0 rgba(11, 20, 26, 0.395), 0 12px 15px 0 rgba(11, 20, 26, 0.333);
+    }
+    /* the h2 that contain the first span and the second span (night mode) */
+    
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0%;
+        font-weight: bolder;
+    }
+    
+    .first-span {
+        color: white;
+    }
+    
+    .second-span {
+        color: #4ADF86;
+    }
+    
+    h3 {
+        font-weight: lighter;
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 51px;
+        color: #D5D4D8;
+        line-height: 28px;
+    }
+    
+    button {
+        width: 191px;
+        font-size: 16px;
+        color: #FFFF;
+        padding: 11px 17px;
+        border-radius: 6px;
+        border: none;
+        background-color: #10B981;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: rgba(16, 185, 129, 0.9);
+        ;
+    }
+    
+    hr {
+        margin: 0;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        width: 95%;
+        border: 1px solid #2F3E53
+    }
+    
+    section {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0%;
+    }
+    
+    .password {
+        width: 211px;
+        background-color: #273549;
+        border-radius: 6px;
+        border: none;
+        font-size: 16px;
+        text-align: center;
+        padding: 13px 17px;
+        color: #55F991;
+        margin: 0%;
+    }
+    
+    .password:hover {
+        cursor: default;
+    }
+    /* svgs image styling */
+    
+    img {
+        height: 40px;
+        width: 40px;
+        float: right;
+        clear: both;
+        cursor: pointer;
+        border-radius: 999px;
+        border: none;
+        padding: 10px;
+    }
+    /* //////////////////////////////////////////////////////////////////// */
+    /* the light mode styling  */
+    
+    .light-container {
+        background-color: rgba(236, 253, 245, 1);
+    }
+    
+    .light-h3 {
+        color: rgba(107, 114, 128, 1);
+    }
+    
+    .light-first-span {
+        color: black;
+    }
+    
+    .light-second-span {
+        color: rgba(16, 185, 129, 1);
+    }
+    
+    .password-light {
+        background-color: rgb(39 53 73 / 93%);
+    }
+    
+    .light-hr {
+        border: 1px solid #2f3e5382;
+    }
+    /* its a div containing the "copied" Spans */
+    
+    .tooltip {
+        justify-content: space-around;
+    }
+    /* "copied" Spans :  */
+    
+    #span1,
+    #span2 {
+        background-color: #D5D4D8;
+        border-radius: 6px;
+        border: none;
+        font-size: 16px;
+        text-align: center;
+        padding: 5px 6px;
+        color: black;
+        margin: 0%;
+        margin-top: 15px;
+        visibility: hidden;
+    }
+    /* day and night svg's styling */
+    
+    #night {
+        display: none;
+    }
+    
+    #night:hover {
+        background-color: rgba(39, 53, 73, 0.23);
+    }
+    
+    #light:hover {
+        background-color: #273549;
+    }
